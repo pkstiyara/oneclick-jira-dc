@@ -72,4 +72,23 @@ install_java() {
 # Install Java if not already installed
 check_java
 
+# Jira Installation Directory 
+
+cd /opt
+
+# Take the version of Jira 
+
+wget https://product-downloads.atlassian.com/software/jira/downloads/atlassian-jira-software-9.12.4-x64.bin
+sudo chmod +x atlassian-jira-software-9.12.4-x64.bin
+
+sh -x atlassian-jira-software-9.12.4-x64.bin << EOF
+o
+1
+i
+y
+n
+EOF
+
+
+
 
