@@ -90,5 +90,8 @@ n
 EOF
 
 
+# stop the Firewalld Service 
+
+systemctl stop firewalld.service
 
 
