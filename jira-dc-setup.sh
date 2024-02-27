@@ -65,7 +65,7 @@ install_java() {
     cd /opt/
     sudo wget https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-x64_bin.tar.gz
     sudo tar -xvzf openjdk-17.0.1_linux-x64_bin.tar.gz
-    echo -e '\nexport JAVA_HOME=/opt/openjdk-17.0.1\nexport PATH=$PATH:$JAVA_HOME/bin' | sudo tee -a /etc/profile
+    echo -e '\nexport JAVA_HOME=/opt/jdk-17.0.1\nexport PATH=$PATH:$JAVA_HOME/bin' | sudo tee -a /etc/profile
     source /etc/profile
 }
 
