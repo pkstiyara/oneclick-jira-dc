@@ -74,7 +74,7 @@ check_java
 
 # Jira Installation Directory 
 
-cd /opt
+cd /mnt
 
 # Take the version of Jira 
 
